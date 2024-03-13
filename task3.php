@@ -6,11 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-    for ($i = 0; $i <= 100; $i++) {
-            echo ("$i,");
+    <?php 
+    for ($i = 1; $i < 10; $i++) {
+        echo("<p>$i   (10-$i)</p>");
     }
-    
     ?>
+    
 </body>
 </html>
