@@ -115,7 +115,7 @@
         $liczba1 = rand(100,999);
         $suma += $liczba1;
         if($liczba1 %2 == 0) {
-            echo("<span style=\"background-color:cyan; \"> $liczba1 </span>") ;
+            echo("<span style=\"background-color:cyan;\"> $liczba1 </span>") ;
         }
         else{
             echo("<span> $liczba1 </span>") ;
